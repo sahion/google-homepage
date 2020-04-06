@@ -10,10 +10,33 @@ ul{
 nav li {
     display:flex;
     float:left;
+    padding-left:17px;
 }
 .right{
     float:right;
 }
 
 .button, #logo{
+}
+header{
+    height:20%;
+    min-height: 30px;
+    max-height:100px;
+    padding-top:15px;
+}
+a{
+    text-decoration: none;
+    color:black;
+    font-size:13px;
+    font-family:arial,sans-serif;
+}
+#sign-in{
+    background-color: #4285f4;
+    Color:white;
+    padding: 6px 9px;
+    border:1px solid #4285f4;
+    margin-top:-6px;
+    border-radius:2px;
+    font-weight: 900;
+    margin-right:20px;
 }
