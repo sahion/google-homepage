@@ -2,6 +2,18 @@ main{
    
     text-align: center;
 }
+ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+nav li {
+    display:flex;
+    float:left;
+}
+.right{
+    float:right;
+}
 
 .button, #logo{
 }
